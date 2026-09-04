@@ -1,5 +1,6 @@
 # DevBox · 开发者工具箱
 
+我参照IT-tools，写了一个IT工具网站,网站地址:https://devbox.1206616680.workers.dev/
 对标 [it-tools.tech](https://it-tools.tech/) 的精简版，只保留 **24 个高频工具**，砍掉了 it-tools 里那些几乎没人点的功能（ASCII 艺术、emoji 选择器、假数据生成、扭矩/温度单位换算、Docker Compose 转换、chmod 计算器、IBAN/BIC 校验、宝可梦 IV 计算器等）。
 
 所有计算都在浏览器本地完成，**没有任何后端、不上传任何数据**，纯静态站点。
