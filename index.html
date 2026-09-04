@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevBox · 开发者工具箱</title>
+    <meta name="description" content="离线可用的开发者常用工具集合：JSON 格式化、Base64、JWT 解析、哈希、UUID、时间戳、二维码、正则测试等，全部在浏览器本地运行。" />
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem('devbox.theme');
+          if (t === 'light') document.documentElement.classList.remove('dark');
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
